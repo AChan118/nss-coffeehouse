@@ -1,0 +1,29 @@
+body{
+    font-family: 'Arial Narrow Bold', sans-serif; 
+    padding: 20px;
+    background-image: url(https://uploads.dailydot.com/531/79/785a7fd973803d88.jpg?auto=compress&fm=pjpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    font-size: xx-large;
+    padding: 30px;
+    background-color: aqua;
+    
+}
+.shop {
+    flex-basis: 16%;
+    border: 1px dotted rgba(121, 66, 15, 0.842);
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;
+    align-items: center;
+    background-color: aqua;
+}
+.list {
+    display: Flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
